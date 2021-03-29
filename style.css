@@ -4,15 +4,18 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__info-img {
   width: 100%;
 }
+
 .header .header__info-link {
   font-family: fantasy, cursive;
 }
@@ -29,27 +32,33 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
 .add-form__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .add-items-section__add-form {
   display: flex;
 }
+
 /*Reset styles*/
 ul {
   margin: 0;
   padding: 0px;
 }
+
 li, 
 h3 {
   list-style: none;
 }
+
 input,
 button{
   outline: none;
 }
+
 .item__edit-btn,
 .add-form__submit,
 .item__delete-btn {
@@ -61,11 +70,13 @@ button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .item__edit-btn:hover,
 .add-form__submit:hover,
 .item__delete-btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .title {
   color: #333;
@@ -76,6 +87,7 @@ button{
   margin: 0;
   text-transform: uppercase;
 }
+
 .add-form__input,
 .item__input {
   margin: 0;
@@ -89,6 +101,7 @@ button{
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .add-form__input:focus,
 .item__input:focus {
   color: #333;
@@ -99,9 +112,11 @@ button{
   display: block;
   margin: 0 0 20px;
 }
+
 #add-form__input {
   width: 318px;
 }
+
 .add-form__submit:hover {
   color: #0fc57c;
 }
@@ -116,6 +131,7 @@ button{
   justify-content: space-between;
   align-items: center;
 }
+
 .item > * {
   vertical-align: middle;
 }
@@ -123,23 +139,27 @@ button{
 .item__checkbox {
   margin: 0 10px;
 }
+
 .item__name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .item__input {
   width: 226px;
 }
 .item__delete-btn:hover {
   color: #cf2323;
 }
+
 .item__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .item__delete-img:hover {
   transform: rotateZ(0);
 }
