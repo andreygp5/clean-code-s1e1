@@ -130,10 +130,6 @@ button {
   width: 318px;
 }
 
-.add-form__submit:hover {
-  color: #0fc57c;
-}
-
 /* Task list */
 .list__item {
   padding: 20px 0;
@@ -165,9 +161,6 @@ button {
 
 .item__input {
   width: 226px;
-}
-.item__delete-btn:hover {
-  color: #cf2323;
 }
 
 .item__delete-img {
