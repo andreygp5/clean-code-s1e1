@@ -126,7 +126,7 @@ button {
   margin: 0 0 20px;
 }
 
-#add-form__input {
+.add-form__input {
   width: 318px;
 }
 
@@ -181,7 +181,7 @@ button {
 }
 
 /* Completed */
-#completed-tasks .item__name {
+.completed-items-section__list .item__name {
   text-decoration: line-through;
   color: #888;
 }
